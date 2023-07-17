@@ -1,0 +1,38 @@
+.albumMain {
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.albumSection {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5vh 0;
+}
+
+.albumH1 {
+  margin: 0;
+  box-shadow: 0px 0px 26px 2px;
+  background: linear-gradient(
+    to bottom,
+    rgb(200, 245, 248),
+    rgb(182, 255, 182)
+  );
+}
+
+.albumFooter {
+  text-align: center;
+  background: lightpink;
+  border-top: 5px double #333;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.albumFooter > p {
+  margin: 0;
+  padding: 10px;
+}
